@@ -1,0 +1,72 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    background-color: rgb(240, 232, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e7c7a8;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    padding: 90px;
+    border-radius: 8px;
+    box-shadow: 0 0 100px rgb(255, 205, 131);
+}
+
+
+.validar {
+    padding: 15px;
+    border: none;
+    background-color: #f05757;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.validar:hover {
+    background-color: rgb(180, 4, 4);
+    cursor: pointer;
+}
+
+.cadastrar {
+    padding: 15px;
+    border: none;
+    background: #82f057;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cadastrar:hover {
+    background-color: rgb(20, 148, 3);
+    cursor: pointer;
+}
+
+.tema {
+    padding: 15px;
+    border: none;
+    background: #f0b358;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.tema:hover {
+    background-color: rgb(173, 100, 5);
+    cursor: pointer;
+}
+
+.status {
+    text-align: center;
+    color: #297c08;
+}
